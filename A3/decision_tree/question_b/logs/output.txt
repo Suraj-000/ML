@@ -1,0 +1,30 @@
+
+
+--- Run started at: 2025-10-24 18:45:19.922454 ---
+Logging started — all terminal output will also go to: logs/output.txt
+****************************************************************************************************
+Q2. Decision tree construction with One hot encoding
+Number of training samples: 7827
+Number of testing samples: 967
+Number of validation samples: 870
+********************************************************************************
+Implementing decison tree for max depth 15
+train accuracy: 0.7109, Test accuracy: 0.5522, validation accuracy: 0.5724
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 25
+train accuracy: 0.8496, Test accuracy: 0.5812, validation accuracy: 0.6046
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 35
+train accuracy: 0.9221, Test accuracy: 0.5843, validation accuracy: 0.5805
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 45
+train accuracy: 0.9872, Test accuracy: 0.6122, validation accuracy: 0.5816
+********************************************************************************
+image saved in plots folder
+Data saved to :/Users/surajreddy/Documents/Codes/assignments/ML/A3/Q1/output_folder/b.csv
+best depth is 25 and is saved in output folder
+total execution time = 179.9556
+****************************************************************************************************

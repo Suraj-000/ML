@@ -1,0 +1,40 @@
+
+
+--- Run started at: 2025-10-24 13:31:31.845232 ---
+Logging started — all terminal output will also go to: logs/output.txt
+****************************************************************************************************
+Q4. Decision tree construction with One hot encoding and Post Pruning using Gini Index.
+Number of training samples: 7827
+Number of testing samples: 967
+Number of validation samples: 870
+********************************************************************************
+Implementing decison tree for max depth 15
+before pruning best validation accuracy = 0.5873563218390805
+after pruning best validation accuracy = 0.6885057471264368
+initial nodes = 1907 final nodes = 1 nof nodes pruned = 1906 
+total time of execution for depth 15 : 334.8519s
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 25
+before pruning best validation accuracy = 0.5586206896551724
+after pruning best validation accuracy = 0.7517241379310344
+initial nodes = 4335 final nodes = 1 nof nodes pruned = 4334 
+total time of execution for depth 25 : 1012.7749s
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 35
+before pruning best validation accuracy = 0.5597701149425287
+after pruning best validation accuracy = 0.764367816091954
+initial nodes = 5249 final nodes = 1 nof nodes pruned = 5248 
+total time of execution for depth 35 : 1271.4257s
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 45
+before pruning best validation accuracy = 0.5597701149425287
+after pruning best validation accuracy = 0.7689655172413793
+initial nodes = 5705 final nodes = 1 nof nodes pruned = 5704 
+total time of execution for depth 45 : 1409.3778s
+********************************************************************************
+ Pruned tree obtained after pruning the max depth 35 tree and is saved in output folder
+total execution time = 4028.5106
+****************************************************************************************************

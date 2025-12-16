@@ -1,0 +1,18 @@
+
+
+--- Run started at: 2025-10-25 14:34:01.329418 ---
+Logging started — all terminal output will also go to: logs/output.txt
+****************************************************************************************************
+Q6. Random Forest Construction Using sklearn libraries
+Number of training samples: 7827
+Number of testing samples: 967
+Number of validation samples: 870
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+best parameters are :  {'bootstrap': True, 'criterion': 'entropy', 'max_features': 0.3, 'min_samples_split': 10, 'n_estimators': 350}
+Data saved to :/Users/surajreddy/Documents/Codes/assignments/ML/A3/Q1/output_folder/f.csv
+train acc: 0.9645
+test acc: 0.7146
+val acc: 0.7172
+OOB acc: 0.7258
+total execution time = 437.2835
+****************************************************************************************************

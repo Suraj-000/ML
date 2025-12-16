@@ -1,0 +1,51 @@
+
+
+--- Run started at: 2025-10-24 22:33:45.780149 ---
+Logging started — all terminal output will also go to: logs/output.txt
+****************************************************************************************************
+Q5. Decision tree construction Using sklearn libraries
+Number of training samples: 7827
+Number of testing samples: 967
+Number of validation samples: 870
+********************************************************************************
+Implementing decison tree for max depth 15
+train accuracy: 0.8262, Test accuracy: 0.6329, validation accuracy: 0.6172
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 25
+train accuracy: 0.9845, Test accuracy: 0.6174, validation accuracy: 0.6092
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 35
+train accuracy: 0.9990, Test accuracy: 0.6163, validation accuracy: 0.6115
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 45
+train accuracy: 1.0000, Test accuracy: 0.6163, validation accuracy: 0.6230
+********************************************************************************
+image saved in plots folder
+****************************************************************************************************
+(ii) DT classifier with default depth and varing ccp_alpha
+********************************************************************************
+Implementing decison tree for pruning parameter 0.0
+train accuracy: 1.0000, Test accuracy: 0.6163, validation accuracy: 0.6230
+********************************************************************************
+********************************************************************************
+Implementing decison tree for pruning parameter 0.0001
+train accuracy: 1.0000, Test accuracy: 0.6163, validation accuracy: 0.6230
+********************************************************************************
+********************************************************************************
+Implementing decison tree for pruning parameter 0.0003
+train accuracy: 0.9782, Test accuracy: 0.6184, validation accuracy: 0.6218
+********************************************************************************
+********************************************************************************
+Implementing decison tree for pruning parameter 0.0005
+train accuracy: 0.8635, Test accuracy: 0.6008, validation accuracy: 0.6414
+********************************************************************************
+image saved in plots folder
+model with max depth 45 with val acc 0.6229885057471264
+model with cpp alpha 0.0005 with val acc 0.6413793103448275
+Data saved to :/Users/surajreddy/Documents/Codes/assignments/ML/A3/Q1/output_folder/e.csv
+csv file saved
+total execution time = 2.2648
+****************************************************************************************************

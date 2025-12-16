@@ -1,0 +1,63 @@
+Logging started — all terminal output will also go to: logs/output_RNN.txt
+Using device: cuda
+****************************************************************************************************
+Training Maze Path Finding using RNN...
+****************************************************************************************************
+Hyperparameters : {'batch_size': 32, 'epochs': 20, 'lr': 0.0001, 'dropout': 0, 'embedding_dim': 128, 'hidden_dim': 512, 'nof_rnn_layers': 2, 'optimizer': 'adam', 'pad_idx': 0, 'sos_idx': 1, 'eos_idx': 2, 'teacher_forcing_ratio': 0.5, 'attention': 256}
+****************************************************************************************************
+loading data... 
+Data shape Train: 80000
+Data shape Validation: 20000
+****************************************************************************************************
+Loading model...
+****************************************************************************************************
+Starting training...
+Best model saved at epoch 1 with Val Seq Acc: 4.40%
+--> Ep 1/20 | Train Loss: 1.7642 | Test Loss: 2.8212 | Train Tok Acc: 41.87% | Val Tok Acc: 27.14% | Train Seq Acc: 0.90% | Val Seq Acc: 4.40% | Train F1: 41.87% | Val F1: 27.14% | Time: 3.09 minutes
+Best model saved at epoch 2 with Val Seq Acc: 15.65%
+--> Ep 2/20 | Train Loss: 1.3614 | Test Loss: 2.7450 | Train Tok Acc: 52.57% | Val Tok Acc: 34.04% | Train Seq Acc: 10.32% | Val Seq Acc: 15.65% | Train F1: 52.57% | Val F1: 34.04% | Time: 2.85 minutes
+Best model saved at epoch 3 with Val Seq Acc: 18.48%
+--> Ep 3/20 | Train Loss: 1.2002 | Test Loss: 2.5260 | Train Tok Acc: 58.98% | Val Tok Acc: 36.13% | Train Seq Acc: 17.25% | Val Seq Acc: 18.48% | Train F1: 58.98% | Val F1: 36.13% | Time: 2.85 minutes
+Best model saved at epoch 4 with Val Seq Acc: 20.91%
+--> Ep 4/20 | Train Loss: 1.1266 | Test Loss: 2.5960 | Train Tok Acc: 61.69% | Val Tok Acc: 36.93% | Train Seq Acc: 19.97% | Val Seq Acc: 20.91% | Train F1: 61.69% | Val F1: 36.93% | Time: 2.85 minutes
+Best model saved at epoch 5 with Val Seq Acc: 23.72%
+--> Ep 5/20 | Train Loss: 1.0611 | Test Loss: 2.5535 | Train Tok Acc: 64.57% | Val Tok Acc: 38.54% | Train Seq Acc: 22.73% | Val Seq Acc: 23.72% | Train F1: 64.57% | Val F1: 38.54% | Time: 2.86 minutes
+Best model saved at epoch 6 with Val Seq Acc: 29.49%
+--> Ep 6/20 | Train Loss: 0.9600 | Test Loss: 2.7779 | Train Tok Acc: 68.95% | Val Tok Acc: 41.74% | Train Seq Acc: 26.78% | Val Seq Acc: 29.49% | Train F1: 68.95% | Val F1: 41.74% | Time: 2.86 minutes
+Best model saved at epoch 7 with Val Seq Acc: 39.23%
+--> Ep 7/20 | Train Loss: 0.7850 | Test Loss: 2.8735 | Train Tok Acc: 75.95% | Val Tok Acc: 48.38% | Train Seq Acc: 34.58% | Val Seq Acc: 39.23% | Train F1: 75.95% | Val F1: 48.38% | Time: 2.85 minutes
+Best model saved at epoch 8 with Val Seq Acc: 50.85%
+--> Ep 8/20 | Train Loss: 0.5638 | Test Loss: 2.8612 | Train Tok Acc: 83.78% | Val Tok Acc: 56.28% | Train Seq Acc: 46.48% | Val Seq Acc: 50.85% | Train F1: 83.78% | Val F1: 56.28% | Time: 2.85 minutes
+Best model saved at epoch 9 with Val Seq Acc: 54.92%
+--> Ep 9/20 | Train Loss: 0.3951 | Test Loss: 2.6447 | Train Tok Acc: 88.78% | Val Tok Acc: 60.51% | Train Seq Acc: 56.34% | Val Seq Acc: 54.92% | Train F1: 88.78% | Val F1: 60.51% | Time: 2.85 minutes
+Best model saved at epoch 10 with Val Seq Acc: 58.10%
+--> Ep 10/20 | Train Loss: 0.3374 | Test Loss: 2.6694 | Train Tok Acc: 90.30% | Val Tok Acc: 62.47% | Train Seq Acc: 60.58% | Val Seq Acc: 58.10% | Train F1: 90.30% | Val F1: 62.47% | Time: 2.86 minutes
+Best model saved at epoch 11 with Val Seq Acc: 59.37%
+--> Ep 11/20 | Train Loss: 0.3000 | Test Loss: 2.7047 | Train Tok Acc: 91.23% | Val Tok Acc: 63.47% | Train Seq Acc: 63.00% | Val Seq Acc: 59.37% | Train F1: 91.23% | Val F1: 63.47% | Time: 2.86 minutes
+Best model saved at epoch 12 with Val Seq Acc: 60.49%
+--> Ep 12/20 | Train Loss: 0.2884 | Test Loss: 2.4769 | Train Tok Acc: 91.53% | Val Tok Acc: 65.17% | Train Seq Acc: 64.38% | Val Seq Acc: 60.49% | Train F1: 91.53% | Val F1: 65.17% | Time: 2.86 minutes
+Best model saved at epoch 13 with Val Seq Acc: 62.03%
+--> Ep 13/20 | Train Loss: 0.2659 | Test Loss: 2.3863 | Train Tok Acc: 92.08% | Val Tok Acc: 66.21% | Train Seq Acc: 65.54% | Val Seq Acc: 62.03% | Train F1: 92.08% | Val F1: 66.21% | Time: 2.89 minutes
+--> Ep 14/20 | Train Loss: 0.2571 | Test Loss: 2.3823 | Train Tok Acc: 92.31% | Val Tok Acc: 66.63% | Train Seq Acc: 66.64% | Val Seq Acc: 61.24% | Train F1: 92.31% | Val F1: 66.63% | Time: 2.91 minutes
+Best model saved at epoch 15 with Val Seq Acc: 62.18%
+--> Ep 15/20 | Train Loss: 0.2403 | Test Loss: 2.4793 | Train Tok Acc: 92.77% | Val Tok Acc: 66.78% | Train Seq Acc: 67.84% | Val Seq Acc: 62.18% | Train F1: 92.77% | Val F1: 66.78% | Time: 2.93 minutes
+Best model saved at epoch 16 with Val Seq Acc: 62.32%
+--> Ep 16/20 | Train Loss: 0.2331 | Test Loss: 2.4430 | Train Tok Acc: 92.98% | Val Tok Acc: 67.07% | Train Seq Acc: 68.93% | Val Seq Acc: 62.32% | Train F1: 92.98% | Val F1: 67.07% | Time: 2.86 minutes
+Best model saved at epoch 17 with Val Seq Acc: 63.20%
+--> Ep 17/20 | Train Loss: 0.2173 | Test Loss: 2.3495 | Train Tok Acc: 93.42% | Val Tok Acc: 67.76% | Train Seq Acc: 69.79% | Val Seq Acc: 63.20% | Train F1: 93.42% | Val F1: 67.76% | Time: 2.86 minutes
+--> Ep 18/20 | Train Loss: 0.2081 | Test Loss: 2.4505 | Train Tok Acc: 93.63% | Val Tok Acc: 67.46% | Train Seq Acc: 70.67% | Val Seq Acc: 63.08% | Train F1: 93.63% | Val F1: 67.46% | Time: 2.86 minutes
+--> Ep 19/20 | Train Loss: 0.2000 | Test Loss: 2.4119 | Train Tok Acc: 93.90% | Val Tok Acc: 67.73% | Train Seq Acc: 71.43% | Val Seq Acc: 62.80% | Train F1: 93.90% | Val F1: 67.73% | Time: 2.86 minutes
+Best model saved at epoch 20 with Val Seq Acc: 63.59%
+--> Ep 20/20 | Train Loss: 0.1910 | Test Loss: 2.4199 | Train Tok Acc: 94.17% | Val Tok Acc: 68.45% | Train Seq Acc: 72.27% | Val Seq Acc: 63.59% | Train F1: 94.17% | Val F1: 68.45% | Time: 2.87 minutes
+****************************************************************************************************
+Plotting training curves...
+Training curves saved to: plots/rnn_training_curves.png
+****************************************************************************************************
+Visualizing predictions for any 5 random mazes from test set...
+Data shape Train: 80000
+Data shape Validation: 20000
+Maze prediction saved to plots/maze_predictions.png
+****************************************************************************************************
+Training completed.
+Total Execution time is: 58.883 minutes
+****************************************************************************************************

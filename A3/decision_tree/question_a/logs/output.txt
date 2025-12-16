@@ -1,0 +1,30 @@
+
+
+--- Run started at: 2025-10-24 18:42:19.724786 ---
+Logging started — all terminal output will also go to: logs/output.txt
+****************************************************************************************************
+Q1. Decision tree construction 
+Number of training samples: 7827
+Number of testing samples: 967
+Number of validation samples: 870
+********************************************************************************
+Implementing decison tree for max depth 5
+train accuracy: 0.8839, Test accuracy: 0.5884, validation accuracy: 0.5828
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 10
+train accuracy: 0.9994, Test accuracy: 0.5905, validation accuracy: 0.5839
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 15
+train accuracy: 1.0000, Test accuracy: 0.5905, validation accuracy: 0.5839
+********************************************************************************
+********************************************************************************
+Implementing decison tree for max depth 20
+train accuracy: 1.0000, Test accuracy: 0.5905, validation accuracy: 0.5839
+********************************************************************************
+image saved in plots folder
+Data saved to :/Users/surajreddy/Documents/Codes/assignments/ML/A3/Q1/output_folder/a.csv
+best depth is 10 and is saved in output folder
+total execution time = 40.4471
+****************************************************************************************************
